@@ -10,6 +10,8 @@ game = Game.new(p1, p2)
 
 # Use WHILE loop 
 while game.p1.lives > 0 && game.p2.lives > 0
+
+  puts "------ NEW TURN -------"
   question = Question.new
 
   if game.current_p == p1
